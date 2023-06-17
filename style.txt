@@ -1,0 +1,239 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logo{
+    font-size: 30px;
+    margin-left: 45px;
+}
+#logo-info{
+    font-size: 15px;
+}
+.navbar-nav{
+    font-weight: normal;
+    margin-left: 191px;
+}
+.navbar-nav a{
+    color:white;
+}
+.navbar-nav a:hover{
+    color:white;
+}
+.nav-item{
+    padding:3px;
+    margin-left:3px;
+}
+.form-control{
+    height:40px;
+    padding:5px;
+    margin-top: 7px;
+    margin-left: 300px;
+}
+#search-icon{
+    height: 40px;
+    margin-top:7px;
+    position:relative;
+    right:7px;
+    background-color: rgb(61, 102, 103);
+    border:1px solid rgb(61, 102, 103);
+    color:white;
+}
+@media only screen and (max-width:1400px){
+    .navbar-nav{
+        font-weight: normal;
+        margin-left: 75px;
+    }
+    .form-control{
+        margin-left: 250px;
+    }
+}
+@media only screen and (max-width:500px){
+    .form-control{
+        height:40px;
+        padding:3px;
+        margin-top: 17px;
+        position:relative;
+        margin-left:0px;
+        margin-bottom: 10px;
+        width:160px;
+    }
+    #search-icon{
+        margin-top: 17px;
+    }
+}
+@media only screen and (max-width:300px){
+    .form-control{
+        height:30px;
+        padding:3px;
+        margin-top: 17px;
+        position:relative;
+        margin-left:0px;
+        left:-20px;
+        margin-bottom: 10px;
+        width:130px;
+    }
+    #search-icon{
+        margin-top: 17px;
+        height:30px;
+        left:-30px;
+    }
+
+}
+#first-page{
+    background-color: rgb(147, 147, 147);
+}
+#first-page h1{
+    position:relative;
+    left:50px;
+    top:70px;
+}
+#first-page p{
+    left:105px;
+    position:relative;
+    top:70px;
+    font-size: 19px;
+}
+@media only screen and (max-width:900px){
+    #first-page h1{
+        position:relative;
+        left:40px;
+        top:50px;
+    }
+    #first-page p{
+        left:85px;
+        position:relative;
+        top:50px;
+    }
+}
+@media only screen and (max-width:500px){
+    #first-page h1{
+        position:relative;
+        left:20px;
+        top:30px;
+    }
+    #first-page p{
+        left:35px;
+        position:relative;
+        top:30px;
+    }
+}
+@media only screen and (max-width:300px){
+    #first-page h1{
+        position:relative;
+        left:20px;
+        top:30px;
+        font-size: 19px;
+    }
+    #first-page p{
+        left:27px;
+        position:relative;
+        top:30px;
+        font-size: 13px;
+    }
+}
+#sec-page{
+    position:relative;
+    left:500px;
+    margin-top:25px;
+}
+#second-page{
+    background-color: rgb(120, 95, 95);
+}
+.bg h4, .bg p{
+    border:1px solid rgb(183, 91, 91);
+    background-color:rgb(183, 91, 91) ;
+}
+.bg p{
+    position:relative;
+    bottom:11px;
+    font-size:15px;
+}
+#document h4{
+    position:relative;
+    bottom:28px;
+}
+#document p{
+    position:relative;
+    bottom:39px;
+}
+@media only screen and (max-width:1400px){
+    #document p{
+        width:275px;
+    }
+    #document h4{
+        width:275px;
+    }
+}
+@media only screen and (max-width:1150px){
+    #document p{
+        width:263px;
+    }
+    #document h4{
+        width:263px;
+    }
+    #sec-page{
+        position:relative;
+        left:450px;
+    }
+}
+@media only screen and (max-width:1050px){
+    #document p{
+        width:233px;
+    }
+    #document h4{
+        width:233px;
+    }
+    #sec-page{
+        position:relative;
+        left:450px;
+    }
+}
+@media only screen and (max-width:900px){
+    #document p{
+        width:181px;
+    }
+    #document h4{
+        width:181px;
+    }
+    #sec-page{
+        position:relative;
+        left:350px;
+    }
+}
+@media only screen and (max-width:800px){
+    #document p{
+        width:169px;
+    }
+    #document h4{
+        width:169px;
+    }
+    #sec-page{
+        position:relative;
+        left:350px;
+    }
+}
+@media only screen and (max-width:500px){
+    #document p{
+        width:275px;
+    }
+    #document h4{
+        width:275px;
+    }
+    #sec-page{
+        position:relative;
+        left:130px;
+    }
+
+    #sell p{
+        width:300px;
+    }
+    #sell h4{
+        width:300px;
+    }
+  
+    #purchase p{
+        width:300px;
+    }
+    #purchase h4{
+        width:300px;
+    }
+}
